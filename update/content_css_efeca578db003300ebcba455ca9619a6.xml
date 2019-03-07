@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>fonts.css</name>
+        <style>@font-face {&#13;
+    font-family: 'open_sansbold';&#13;
+    src: url('/sys_attachment.do?sys_id=20de20c1dbf323003f21f53a2996192c');&#13;
+    src: url('/sys_attachment.do?sys_id=20de20c1dbf323003f21f53a2996192c?#iefix') format('embedded-opentype'), &#13;
+ url('/sys_attachment.do?sys_id=7cde20c1dbf323003f21f53a29961933') format('woff'),&#13;
+ url('/sys_attachment.do?sys_id=7cde20c1dbf323003f21f53a29961930') format('truetype'),&#13;
+ url('/sys_attachment.do?sys_id=34de20c1dbf323003f21f53a2996192e#open_sansbold') format('svg');&#13;
+    font-weight: normal;&#13;
+    font-style: normal;&#13;
+}&#13;
+&#13;
+@font-face {&#13;
+    font-family: 'sf-lightning';&#13;
+    src:  url('/sys_attachment.do?sys_id=f8de60c1dbf323003f21f53a299619d1');&#13;
+    src:  url('/sys_attachment.do?sys_id=f8de60c1dbf323003f21f53a299619d1#iefix') format('embedded-opentype'),&#13;
+      url('/sys_attachment.do?sys_id=8dde60c1dbf323003f21f53a299619d9') format('truetype'),&#13;
+      url('/sys_attachment.do?sys_id=89de60c1dbf323003f21f53a299619de') format('woff'),&#13;
+      url('/sys_attachment.do?sys_id=49de60c1dbf323003f21f53a299619d5#sf-lightning') format('svg');&#13;
+    font-weight: normal;&#13;
+    font-style: normal;&#13;
+  }</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-05 06:40:33</sys_created_on>
+        <sys_id>efeca578db003300ebcba455ca9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fonts.css</sys_name>
+        <sys_package display_value="Amazon" source="x_317887_amazon">686765b4db003300ebcba455ca9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Amazon">686765b4db003300ebcba455ca9619c4</sys_scope>
+        <sys_update_name>content_css_efeca578db003300ebcba455ca9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-05 06:40:33</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_317887_amazon_index.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<g:evaluate object="true">
+	  var g_ck = gs.getSession().getSessionToken();
+		var app_scope = gs.getCurrentScopeName();
+	</g:evaluate>
+	<script>
+	  window.g_ck = "$[g_ck]";
+		window.app_scope = "$[app_scope]";
+		
+	</script>
+	
+	<base href="/${gs.getMessage(gs.getCurrentScopeName())}_index.do/"/>
+	
+	<!--fonts-->
+<link href="/acecadb8db003300ebcba455ca961983.cssdbx" rel="stylesheet" type="text/css"></link>	
+	<!--vendor.min-->
+<link href="/65ec6d78db003300ebcba455ca961995.cssdbx" rel="stylesheet" type="text/css"></link>
+	<!--styles.min-->
+<link href="/efeca578db003300ebcba455ca9619a6.cssdbx" rel="stylesheet" type="text/css"></link>
+	<!--bootstrap-datepicker.min-->
+<link href="/30fcadb8db003300ebcba455ca96193a.cssdbx" rel="stylesheet" type="text/css"></link>
+	<!--bootstrap-timepicker.min-->
+<link href="/980d6178db003300ebcba455ca9619d3.cssdbx" rel="stylesheet" type="text/css"></link>
+	
+	<!--<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.liga.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.tether.min.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.openFrameAPI.jsdbx" />
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.appconfig.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.amazon-connect-1.0.jsdbx" />
+	
+	<App><span class="pre-loader"/></App>
+	
+	<!--<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.polyfill.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.vendor4.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.vendor3.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.vendor2.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.vendor1.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.vendor.jsdbx" />
+	<g:requires name="${gs.getMessage(gs.getCurrentScopeName())}.app.jsdbx" />-->
+	
+	<script type='text/javascript' src='https://172.20.3.125:9096/ui/polyfill.ad415cfb71bdf46cad94.js'/>
+	<script type='text/javascript' src='https://172.20.3.125:9096/ui/vendor.ad415cfb71bdf46cad94.js'/>
+	<script type='text/javascript' src='https://172.20.3.125:9096/ui/app.ad415cfb71bdf46cad94.js'/>
+	
+</j:jelly>]]></html>
+        <name>index</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-05 06:42:55</sys_created_on>
+        <sys_id>fddce9b8db003300ebcba455ca9619b1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>index</sys_name>
+        <sys_package display_value="Amazon" source="x_317887_amazon">686765b4db003300ebcba455ca9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Amazon">686765b4db003300ebcba455ca9619c4</sys_scope>
+        <sys_update_name>sys_ui_page_fddce9b8db003300ebcba455ca9619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 12:51:51</sys_updated_on>
+    </sys_ui_page>
+</record_update>
